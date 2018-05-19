@@ -1,5 +1,7 @@
-//build.js: Configuration file for optimizing the ifSetup function. 
+//build.js: Configuration file for optimizing _.if.js. 
 /*
+
+	Dependencies: 1. underscore.
 */ 
 ({
     paths: {
