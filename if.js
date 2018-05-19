@@ -18,12 +18,14 @@ define([
                         	if ( xIfClassInstance.Comparator ) {
                         	        Callback();
                 	        }
+				return xIfClassInstance;
         	        },
 			"otherwise": function( Callback ) {
 				var xIfClassInstance = this;
 				if ( !xIfClassInstance.Comparator ) {
 					Callback();
 				}
+				return xIfClassInstance;
 			}
 	        };
  
